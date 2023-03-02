@@ -1,0 +1,99 @@
+body {
+    background-color: #9fcafa;
+}
+
+.title {
+text-align: center;
+font-size: 34px;
+}
+
+.boardWrapper {
+    /* background-color: #b3eeb3; */
+    background-color: #f3eded;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.board-list {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    list-style:none;
+    font-size:16px;
+    margin:0;
+    padding:0;
+}
+.board-list li {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+    margin:0;
+}
+.board-list li:hover {
+    opacity:0.8;
+}
+.board-list li a {
+    display:block;
+    width:100%;
+    text-decoration:none;
+    /* color:#000; */
+}
+.board-list li span {
+    font-size:12px;
+    color:#666;
+}
+.board-list li::after {
+    content: "〉";
+    position: absolute;
+    color: #d8d8d8;
+    right: 5px;
+    top: 23px;
+}
+
+.list {
+    float: left;
+}
+
+section {
+    padding: 0px 10px;
+}
+
+section .username {
+    color: green !important;
+    font-weight: 700;
+}
+
+section .nameArea {
+    display: flex;
+    align-items: center;
+    margin-bottom: -14px;
+}
+
+section .comment {
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.success_message {
+    color: green;
+    padding-left: 10px;
+}
+
+.error_message {
+    color: red;
+    padding-left: 10px;
+}
+
+.formWrapper {
+    padding: 16px;
+    margin-left: 20px;
+}
+
+.commentTextArea {
+    margin-top: 10px;
+    width: 500px;
+    height: 90px;
+}
